@@ -10,7 +10,7 @@
     <div id='rand'>
     </div>
     <script>
-        a = random_int(1,100);
+        a = rand(1,100);
         Document.getElementById('rand').innerHTML=(a);
     </script>
 </body>
