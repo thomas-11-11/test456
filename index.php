@@ -7,6 +7,10 @@
 </head>
 <body>
     test
-    testing
+    <div id='rand'>
+    </div>
+    <script>
+        Document.getElementById('rand').innerHTML=random_int(1,100);
+    </script>
 </body>
 </html>
